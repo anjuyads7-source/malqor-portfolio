@@ -1,0 +1,9 @@
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:100px}
+body{font-family:'Outfit',sans-serif;background:#0a0a0a;color:#e0e0e0;overflow-x:hidden}
+:root{--primary:#a855f7;--primary-light:#c084fc;--accent:#6366f1;--text:#f0f0f0;--muted:#888;--bg:#0a0a0a;--surface:rgba(255,255,255,0.04);--border:rgba(255,255,255,0.08);--border-hover:rgba(168,85,247,0.4);--radius:24px;--radius-sm:14px}
+::selection{background:rgba(168,85,247,0.3);color:#fff}
+a{text-decoration:none;color:inherit}img{max-width:100%;height:auto;display:block}.hidden{display:none!important}
+.navbar{position:fixed;top:16px;left:50%;transform:translateX(-50%);z-index:1000;display:flex;align-items:center;justify-content:space-between;padding:12px 24px;background:rgba(15,15,15,0.8);backdrop-filter:blur(24px);border:1px solid rgba(255,255,255,0.06);border-radius:100px;width:calc(100% - 48px);max-width:1200px}
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:160px 48px 80px;text-align:center;flex-direction:column}
+/* Simplified CSS for brevity */
